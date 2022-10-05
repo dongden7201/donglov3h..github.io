@@ -1,0 +1,109 @@
+body {
+ 
+
+   font-size: 18px;
+   /* padding-left:300px;
+   padding-left: ; */
+}
+.conten span {
+    font-weight: 600;
+}
+.first-mother li {
+    padding: 10px 5px;
+    display: inline-block ;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+}
+/* .first {
+   height: 40px;
+} */
+.first-div-1 {
+    width: 60%;
+    float: left;
+}
+.first-div-2 {
+    width: 40%;
+    float: right;
+}
+.mother {
+    background-color: rgb(5, 226, 226);
+}
+.icon {
+    width: 30%;
+    float: right;
+}
+.mother li:hover {
+    background-color: rgb(177, 240, 240);
+}
+.conten {
+    width: 1000px;
+    padding-left: 200px;
+    font-size: 20px;
+    
+}
+.table {
+    width: 800px;
+    background-color: rgba(131,146,191,0.3) ;
+}
+.folder {
+   text-align: center;
+}
+/* .image-phuquoc {
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    background-image: url(https://dulich9.com/wp-content/uploads/2019/02/Dao-Phu-Quoc-o-dau-kinh-nghiem-du-lich.png) ;
+}
+.image-phuquoc1 {
+   text-align: end;
+   
+} */
+.image-phuquoc {
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+   
+}
+.note-1 {
+    text-align: center;
+    font-size: 12px;
+}
+.boder {
+    background-color:rgb(88,132,214) ;
+    border-radius:15px  ;
+}
+.boder-text {
+    
+    color: white;
+    padding: 40px;
+}
+.form-size {
+    width: 800px;
+    height: 200px;
+}
+.form-name {
+    width: 800px;
+}
+.information {
+    width: 800px;
+
+}
+.information-web {
+    margin-left: 325px;
+}
+.information-web-1 {
+    width: 400px;
+    margin-left: 200px;
+}
+
+   
+
+.feed-back {
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+}
+.feed-back:hover {
+    background-color: rgb(234, 196, 127);
+}
