@@ -1,183 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body{
-            background-color: aqua;
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        .design-product {
-            max-width: 600px;
-            padding: 20px;
-            background-color: white;
-            display: flex;
-            /* justify-content: center; */
-            position: relative;
-            flex-wrap: wrap;
-            border: 1px solid black;
-            margin: 200px;
-            margin-top: 20px;
-            /* margin-right: 48%; */
-            box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
-        }
-        .design-backgroud { 
-            min-width: 20%;
-            /* float: left; */
-            position: absolute;
-            left: -50px;
-            top: 10px;
-            background-color: greenyellow;
-            border: 1px solid greenyellow;
-            border-radius: 5px;
-            box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
-        }
-        .image {
-            position: absolute;
-            left: -60px;
-        }
-        .icon{
-            display: flex;
-            justify-content: space-between;
-            color: white;
-            font-weight: 700;
-            padding: 2px;
-        }
-        /* .list-1.list-2 li{
+      body {
+        background-color: aqua;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .design-product {
+        max-width: 600px;
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        /* justify-content: center; */
+        position: relative;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        margin: 200px;
+        margin-top: 20px;
+        /* margin-right: 48%; */
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+      }
+      .design-backgroud {
+        min-width: 20%;
+        /* float: left; */
+        position: absolute;
+        left: -50px;
+        top: 10px;
+        background-color: greenyellow;
+        border: 1px solid greenyellow;
+        border-radius: 5px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+      }
+      .image {
+        position: absolute;
+        left: -60px;
+      }
+      .icon {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-weight: 700;
+        padding: 2px;
+      }
+      /* .list-1.list-2 li{
             list-style: none;
         } */
-        .design-list-1{
-            background-color: white;
-            padding-bottom: 5px;
-           
-           
-        }
-        .list-1{
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            align-content: flex-end;
-            padding: 0;
-            margin-top: 350px;
-            
-        }
-        .list-1 li{
-            padding: 5px;
-            border: 1px solid green;
-            margin: 5px;
-        }
-        .design-list-2{
-            background-color: white;
-        }
-        .list-2{
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            /* align-items: flex-start; */
-            justify-content: flex-start;
-            padding: 0;
-            
-        }
-        .list-2 li{
-         
-          margin: 3px;
-        }
-        .list-2 li:first-child {
-            border: 1px solid green;
-        }
-        .list-2 li:hover {
-            border: 1px solid green;
-        }
-        .list-3{
-           margin: 0;
-        }
-        .end{
-            margin-top: 10px;
-            padding: 10px;
-            background-color: rgb(255, 128, 128);
-            border-radius: 5px;
-            box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
-        }
-        .end:hover {
-            background-color: rgb(185, 78, 78);
-        }
-        .design-backgroud-1{
-            min-width: 50%;
-            margin-left: 300px;
-            padding: 0px;
-            
-            
-        }
-        .text {
-            color: red;
-            font-size: 30px;
-        }
-        .text-1{
-            font-size: 70px;
-        }
-        
-        
-        
-
+      .design-list-1 {
+        background-color: white;
+        padding-bottom: 5px;
+      }
+      .list-1 {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        padding: 0;
+        margin-top: 350px;
+      }
+      .list-1 li {
+        padding: 5px;
+        border: 1px solid green;
+        margin: 5px;
+      }
+      .design-list-2 {
+        background-color: white;
+      }
+      .list-2 {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        /* align-items: flex-start; */
+        justify-content: flex-start;
+        padding: 0;
+      }
+      .list-2 li {
+        margin: 3px;
+      }
+      .list-2 li:first-child {
+        border: 1px solid green;
+      }
+      .list-2 li:hover {
+        border: 1px solid green;
+      }
+      .list-3 {
+        margin: 0;
+      }
+      .end {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: rgb(255, 128, 128);
+        border-radius: 5px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+      }
+      .end:hover {
+        background-color: rgb(185, 78, 78);
+      }
+      .design-backgroud-1 {
+        min-width: 50%;
+        margin-left: 300px;
+        padding: 0px;
+      }
+      .text {
+        color: red;
+        font-size: 30px;
+      }
+      .text-1 {
+        font-size: 70px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="design-product">
-        <div class="design-backgroud">
-            <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
-                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
-                  </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
-                  </svg>
-            </div>
-            <div class="image">
-                <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png" alt="apple" width="300px" height="300px">
-            </div>
-            <div class="design-list-1">
-                <ul class="list-1">
-                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="anh1"></li>
-                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303532/codepen/delicious-apples/half-apple.png" alt="anh1"></li>
-                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303160/codepen/delicious-apples/green-apple-flipped.png" alt="anh1"></li>
-                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="anh1"></li>   
-                </ul>
-            </div>
-    
+      <div class="design-backgroud">
+        <div class="icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-share-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-heart"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+            />
+          </svg>
         </div>
-        <div class="design-backgroud-1">
-            <h2>Delicious Apples</h2>
-            <span>COD:45999</span>
-            <br>
-             <div class="text">
-                <span>R$ <span class="text-1">7.93</span></span>
-             </div>
-            <br>
-            <span>SELECT A COLOR</span>
-            <div class="design-list-2">
-                <ul class="list-2">
-                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="#"></li>
-                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="#"></li>
-                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="#"></li>
-                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="#"></li>
-                </ul>
-            </div>
-            <span>BENEFIST</span>
-            <div class="design-list-3">
-                <ul class="list-3">
-                    <li>Apples are nutricious</li>
-                    <li>Apples may be good for weight loss</li>
-                    <li>Apples may be good for bone health</li>
-                    <li>They're linked to a lowest risk of diabetes</li>
-                </ul>
-            </div>
-            <button class="end">ADD TO CART</button>
+        <div class="image">
+          <img
+            src="https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png"
+            alt="apple"
+            width="300px"
+            height="300px"
+          />
         </div>
+        <div class="design-list-1">
+          <ul class="list-1">
+            <li>
+              <img
+                src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"
+                alt="anh1"
+              />
+            </li>
+            <li>
+              <img
+                src="https://res.cloudinary.com/john-mantas/image/upload/v1537303532/codepen/delicious-apples/half-apple.png"
+                alt="anh1"
+              />
+            </li>
+            <li>
+              <img
+                src="https://res.cloudinary.com/john-mantas/image/upload/v1537303160/codepen/delicious-apples/green-apple-flipped.png"
+                alt="anh1"
+              />
+            </li>
+            <li>
+              <img
+                src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"
+                alt="anh1"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="design-backgroud-1">
+        <h2>Delicious Apples</h2>
+        <span>COD:45999</span>
+        <br />
+        <div class="text">
+          <span>R$ <span class="text-1">7.93</span></span>
+        </div>
+        <br />
+        <span>SELECT A COLOR</span>
+        <div class="design-list-2">
+          <ul class="list-2">
+            <li>
+              <img
+                src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"
+                alt="#"
+              />
+            </li>
+            <li>
+              <img
+                src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png"
+                alt="#"
+              />
+            </li>
+            <li>
+              <img
+                src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png"
+                alt="#"
+              />
+            </li>
+            <li>
+              <img
+                src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png"
+                alt="#"
+              />
+            </li>
+          </ul>
+        </div>
+        <span>BENEFIST</span>
+        <div class="design-list-3">
+          <ul class="list-3">
+            <li>Apples are nutricious</li>
+            <li>Apples may be good for weight loss</li>
+            <li>Apples may be good for bone health</li>
+            <li>They're linked to a lowest risk of diabetes</li>
+          </ul>
+        </div>
+        <button class="end">ADD TO CART</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
