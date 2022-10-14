@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      a {
+        color: #3554d1;
+        text-decoration: none;
+      }
+      .container {
+        background-image: url(hero-bg.jpg);
+        background-size: cover;
+        position: relative;
+        height: 600px;
+      }
+      .content-1 {
+        margin-right: 50px;
+      }
+      .content-1 span {
+        margin: 20px;
+      }
+      .content-2 {
+        margin-left: 50px;
+      }
+      .sigup {
+        float: right;
+        color: white;
+        padding: 10px;
+      }
+      .text {
+        font-style: normal;
+        margin-top: 100px;
+      }
+      .text-1 {
+        font-size: 64px;
+        font-weight: 800;
+        /* margin-top: 100px; */
+        color: #0f2480;
+      }
+      .text-2 {
+        font-size: 64px;
+        font-weight: 800;
+        /* margin-top:-60px ; */
+        color: #3554d1;
+      }
+      .text-3 {
+        font-size: 64px;
+        font-weight: 800;
+        /* margin-top: -60px; */
+        color: #3554d1;
+      }
+      .text-4 {
+        font-family: "Inter";
+        font-style: normal;
+        line-height: 24px;
+        display: inline-block;
+        width: 200px;
+        height: 60px;
+        margin-top: 40px;
+      }
+      .link {
+        display: inline-block;
+        border: 1px solid #3554d1;
+        border-radius: 25px;
+        padding: 10px 20px;
+        margin-top: 10px;
+        box-shadow: 0 3px 6px black;
+      }
+      .form {
+        margin-left: 50px;
+        background-color: white;
+        display: inline-block;
+        /* max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto; */
+        padding: 8px 30px;
+        position: absolute;
+        bottom: -30px;
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+      }
+      .form input {
+        width: 600px;
+        padding: 10px;
+      }
+      .form button {
+        padding: 10px 20px;
+        background-color: #3554d1;
+      }
+      .form button:hover {
+        background-color: #5c7bf6;
+      }
+      .container-father {
+        transform: translateY(15%);
+      }
+      .container-1 {
+        margin-left: 50px;
+        display: flex;
+        justify-content: flex-start;
+      }
+      .thumbnal-1 {
+        padding: 30px;
+      }
+      .thumbnal-1 p {
+        font-weight: 800;
+        font-size: 32px;
+        border-left: 5px solid black;
+        padding: 5px;
+      }
+      .thumbnal-1 span {
+        display: inline-block;
+        width: 584px;
+        height: 72px;
+        font-weight: 400;
+        font-family: "Inter";
+        font-style: normal;
+        line-height: 24px;
+      }
+      .thumbnal-1 a {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 1px solid #3554d1;
+        border-radius: 24px;
+        margin-top: 24px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+      .container-2 {
+        text-align: center;
+      }
+      .container-2 h2 {
+        display: inline-block;
+        font-weight: 800;
+        font-size: 32px;
+        border-left: 5px solid black;
+        padding: 5px;
+      }
+      .container-2 p {
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: -10px;
+      }
+      .container-3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+      }
+      .container-3 div {
+        width: 500px;
+        padding: 10px;
+      }
+      .container-3 div p {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content-1">
+        <div class="sigup">
+          <span>Login</span>
+          <span>Sigup</span>
+        </div>
+      </div>
+      <div class="content-2">
+        <div>
+          <img src="logo.png" alt="anh-1" />
+        </div>
+        <div class="text">
+          <span class="text-1">Modern</span>
+          <br />
+          <span class="text-2">Apartment</span>
+          <br />
+          <span class="text-3">House</span>
+        </div>
+        <span class="text-4"
+          >It is a long established fact that a reader will be distracted by the
+          readable content of</span
+        >
+        <br />
+        <a class="link" href="#">Read More</a>
+      </div>
+      <form class="form">
+        <input type="text" placeholder="Search Your Categories" />
+        <input type="text" placeholder="Location" />
+        <button type="submit">SEARCH</button>
+      </form>
+    </div>
+    <div class="container-father">
+      <div class="container-1">
+        <img src="about-img.jpg" alt="nha bep" />
+        <div class="thumbnal-1">
+          <p>About Our Apartment</p>
+          <span
+            >There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words</span
+          >
+          <br />
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="container-2">
+        <h2>House For Sale</h2>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but
+          the
+        </p>
+      </div>
+      <div class="container-3">
+        <div>
+          <img src="s-1.jpg" alt="" width="400px" height="200px" />
+          <h3>APARTMENTS HOUSE</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+          </p>
+        </div>
+        <div>
+          <img src="s-2.jpg" alt="" width="400px" height="200px" />
+          <h3>APARTMENTS HOUSE</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+          </p>
+        </div>
+        <div>
+          <img src="s-3.jpg" alt="" width="400px" height="200px" />
+          <h3>APARTMENTS HOUSE</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+          </p>
+        </div>
+        <div>
+          <img src="s-4.jpg" alt="" width="400px" height="200px" />
+          <h3>APARTMENTS HOUSE</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+          </p>
+        </div>
+        <div>
+          <img src="s-5.jpg" alt="" width="400px" height="200px" />
+          <h3>APARTMENTS HOUSE</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+          </p>
+        </div>
+        <div>
+          <img src="s-6.jpg" alt="" width="400px" height="200px" />
+          <h3>APARTMENTS HOUSE</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
