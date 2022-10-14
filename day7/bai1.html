@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .animation {
+        display: flex;
+      }
+      .animation div {
+        /* border: 1px solid black; */
+        padding: 10px;
+        margin: 10px;
+        border-radius: 50%;
+      }
+      .animation-1 {
+        background-color: rgb(232, 230, 230);
+        animation: color-white 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes color-white {
+        0% {
+          transform: scale(0.9);
+          box-shadow: 0 0 0 0 rgba(232, 230, 230, 1);
+        }
+        50% {
+          transform: scale(1);
+          box-shadow: 0 0 0 10px rgba(232, 230, 230, 0.2);
+        }
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(232, 230, 230, 1);
+        }
+      }
+      .animation-2 {
+        background-color: rgba(246, 29, 29, 1);
+        animation: color-red 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes color-red {
+        0% {
+          transform: scale(0.9);
+          box-shadow: 0 0 0 0 rgba(246, 29, 29, 1);
+        }
+        50% {
+          transform: scale(1);
+          box-shadow: 0 0 0 10px rgba(246, 29, 29, 0.2);
+        }
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(246, 29, 29, 1);
+        }
+      }
+      .animation-3 {
+        background-color: rgba(239, 145, 22, 1);
+        animation: color-orange 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes color-orange {
+        0% {
+          transform: scale(0.9);
+          box-shadow: 0 0 0 0 rgba(239, 145, 22, 1);
+        }
+        50% {
+          transform: scale(1);
+          box-shadow: 0 0 0 10px rgba(239, 145, 22, 0.2);
+        }
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(239, 145, 22, 1);
+        }
+      }
+      .animation-4 {
+        background-color: rgb(238, 228, 37, 1);
+        animation: color-yelow 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes color-yelow {
+        0% {
+          transform: scale(0.9);
+          box-shadow: 0 0 0 0 rgb(238, 228, 37, 1);
+        }
+        50% {
+          transform: scale(1);
+          box-shadow: 0 0 0 10px rgb(238, 228, 37, 0.2);
+        }
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgb(238, 228, 37, 1);
+        }
+      }
+      .animation-5 {
+        background-color: rgba(48, 170, 245.1);
+        animation: color-blue 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes color-blue {
+        0% {
+          transform: scale(0.9);
+          box-shadow: 0 0 0 0 rgba(48, 170, 245.1);
+        }
+        50% {
+          transform: scale(1);
+          box-shadow: 0 0 0 10px rgba(48, 170, 245, 0.2);
+        }
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(48, 170, 245.1);
+        }
+      }
+      .animation-6 {
+        background-color: rgba(11, 242, 111, 1);
+        animation: color-green 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes color-green {
+        0% {
+          transform: scale(0.9);
+          box-shadow: 0 0 0 0 rgba(11, 242, 111, 1);
+        }
+        50% {
+          transform: scale(1);
+          box-shadow: 0 0 0 10px rgba(11, 242, 111, 0.2);
+        }
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(11, 242, 111, 1);
+        }
+      }
+      .animation-7 {
+        background-color: rgba(149, 19, 241.1);
+        animation: color-purple 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes color-purple {
+        0% {
+          transform: scale(0.9);
+          box-shadow: 0 0 0 0 rgba(149, 19, 241.1);
+        }
+        50% {
+          transform: scale(1);
+          box-shadow: 0 0 0 10px rgba(149, 19, 241, 0.2);
+        }
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(149, 19, 241.1);
+        }
+      }
+      .animation-8 {
+        background-color: rgba(14, 1, 1, 1);
+        animation: color-black 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes color-black {
+        0% {
+          transform: scale(0.9);
+          box-shadow: 0 0 0 0 rgba(14, 1, 1, 1);
+        }
+        50% {
+          transform: scale(1);
+          box-shadow: 0 0 0 10px rgba(14, 1, 1, 0.2);
+        }
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(14, 1, 1, 1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Pulse Effect</h2>
+    <div class="animation">
+      <div class="animation-1"></div>
+      <div class="animation-2"></div>
+      <div class="animation-3"></div>
+      <div class="animation-4"></div>
+      <div class="animation-5"></div>
+      <div class="animation-6"></div>
+      <div class="animation-7"></div>
+      <div class="animation-8"></div>
+    </div>
+  </body>
+</html>

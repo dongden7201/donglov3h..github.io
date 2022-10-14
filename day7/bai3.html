@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .image-1 {
+        width: 600px;
+        height: 330px;
+        background-image: url(https://png.pngtree.com/png-vector/20220627/ourmid/pngtree-heart-beat-line-vector-ilustration-png-image_5505751.png);
+        background-size: cover;
+      }
+      .image {
+        width: 600px;
+        height: 330px;
+        background-color: white;
+        animation: image 6s;
+      }
+      @keyframes image {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(600px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-1">
+      <div class="image"></div>
+    </div>
+  </body>
+</html>
